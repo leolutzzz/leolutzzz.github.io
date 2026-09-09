@@ -51,59 +51,59 @@ table {
 
 
 body {
-	background-color: _______; /* Not totally white. */
-	color: _______;  /* Not totally black. */
+	background-color: #d6d6d6; /* Not totally white. */
+	color: #2b2b2b;  /* Not totally black. */
 	line-height: 140%; 	/* A little extra leading. */
-	font-family: _______;
+	font-family: sans-serif;
 }
 
 h1 {
-	background-color: _______;
-	color: _______; /* Same as body background. */
-	font-size: _______;
-	padding: ____ ____ ____; /* You want three values. */
-	font-weight: _______;
-	text-transform: _______;
+	background-color: #d6d6d6;
+	color: #2b2b2b; /* Same as body background. */
+	font-size: 45px;
+	padding: 35px 30px 15px; /* You want three values. */
+	font-weight: bold;
+	text-transform: uppercase;
 }
 
 
 h2 {
-	background-color: _______;
-	color: _______;
-	font-size: _______;
-	padding: _______;
-	font-family: _______;
-	font-weight: _______;
+	background-color: #d6d6d6;
+	color: #2b2b2b;
+	font-size: 40px;
+	padding: 0px 30px 35px;
+	font-family: sans-serif;
+	font-weight: bold;
 }
 
 h3 {
-	margin: ____ ____ ____; /*Three values again. You got the idea.*/
-	padding-top: _______;
-	font-size: _______;
-	color: _______;
-	font-weight: _______;
-	text-transform: _______;
-	letter-spacing: ____; /*Just an extra tracking for bold uppercase letters. Try 0.1em */
-	border-top: ____ ____ ____;
+	margin: 70px 30px 30px; /*Three values again. You got the idea.*/
+	padding-top: 15px;
+	font-size: 30px;
+	color: #cf3830;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 3px; /*Just an extra tracking for bold uppercase letters. Try 0.1em */
+	border-top: 3px solid #cf3830;
 }
 
 h4 {
-	font-weight: _______;
+	font-weight: bold;
 }
 
 p.description {
-	font-style: _______;
+	font-style: italic;
 }
 
 p.price {
-	color: _______;
+	color: #cf3830;
 }
 
 ul {
-	margin: ____ ____ ____;
-}
+	margin: 0px 35px 45px;
+
 
 li { 
-	margin: ____ ____;
-	list-style-type: ____;
+	margin: 2px 25px;
+	list-style-type: none;
 }
