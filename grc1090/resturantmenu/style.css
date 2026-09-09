@@ -54,12 +54,12 @@ body {
 	background-color: #d6d6d6; /* Not totally white. */
 	color: #2b2b2b;  /* Not totally black. */
 	line-height: 140%; 	/* A little extra leading. */
-	font-family: sans-serif;
+	font-family: arial;
 }
 
 h1 {
-	background-color: #d6d6d6;
-	color: #2b2b2b; /* Same as body background. */
+	background-color: #9898A3;
+	color: #f7f7f7; /* Same as body background. */
 	font-size: 45px;
 	padding: 35px 30px 15px; /* You want three values. */
 	font-weight: bold;
