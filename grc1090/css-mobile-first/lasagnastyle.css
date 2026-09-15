@@ -6,6 +6,53 @@ img {
     width: 100%; /*Please leave this line.*/
      display: block;
 }
+body {
+    margin: 0;
+    color: black;
+    background: white;
+    font-family: sans-serif;
+    font-weight: 375;
+}
+.container {
+    width: 100;
+}
+header {
+    padding: 50px 45px 35px;
+    color: white;
+    background-color: orange;
+}
+h1 {
+    font-family: serif;
+    font-size: 45px;
+    font-weight: 700;
+}
+h2 {
+    font-family: serif;
+    font-size: 30px;
+    font-weight: 275;
+}
+h3 {
+    font-family: serif;
+    color: orange;
+    font-size: 30px;
+    font-weight: 300;
+}
+figure {
+    width: 100%;
+}
+figcaption{
+    padding: 30px 45px 20px;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+main {
+    padding: 0px 45px 40px;
+}
+
+
+    
 
 
 
