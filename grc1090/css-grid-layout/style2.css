@@ -63,6 +63,7 @@ body {
 
 figure {
 	display: grid;
+	grid-template-colummns: 4fr 1fr;
 }
 
 figure img {
@@ -80,6 +81,8 @@ figcaption {
 main {
 	display: grid;
 	padding: 60px
+	grid-template-columns: 1fr 1fr;
+	gap: 55px;
 }
 
 .container {
@@ -90,7 +93,7 @@ main {
 
 header{
 	background-color: orange;
-	color: white
+	color: white;
 	padding: 65px 40px 30px;
 }
 
