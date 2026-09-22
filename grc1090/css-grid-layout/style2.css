@@ -63,11 +63,12 @@ body {
 
 figure {
 	display: grid;
-	grid-template-colummns: 4fr 1fr;
+	grid-template-colummns: minmax(4fr, 1fr) minmax(0fr, 1fr;
 }
 
 figure img {
 	width: 100%;
+	height: auto;
 	display: block;
 }
 
