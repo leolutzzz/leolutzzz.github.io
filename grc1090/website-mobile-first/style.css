@@ -19,7 +19,7 @@ div.container {
 
 
 main { 
-	padding: ____ ____ ____;
+	padding: 1.5em 1.5em 4em;
 	}
 
 img {
@@ -28,94 +28,94 @@ img {
 }
 
 header {
-	display: ____;
-	grid-template-columns: ____ ____;
-	background: ____;
-	padding: ____ ____;
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	background: #ddd;
+	padding: 1em;
 	}
 
 h1 {
-	width: ____;
+	width: 50%;
 	}
 
 h2, h3, h4 {
-		font-weight: ____;
+		font-weight: bold;
 	}
 
 h2 {
-	font-size: ____;
-	margin: ____ ____ ____;
+	font-size: 1.5em;
+	margin: 0 0 1em;
 	}
 	
 h3 {
-	font-size: ____;
-	margin: ____ ____ ____;
+	font-size: 1em;
+	margin: 0 0 0.5em;
 }
 
 
 a {
-	text-decoration: ____;
+	text-decoration: none;
 	}
 
 nav ul  {
-	text-align: ____;
+	text-align: right;
 	}
 	
 ul li 	{
-	list-style-type: ____;
+	list-style-type: none;
 }
 
 figure {
-	margin-bottom: ____;
+	margin-bottom: 1em;
 }
 
 main.menu ul {
-		margin: ____ ____;
+		margin: 0 0 2em;
 }	
 
 main.menu ul li {
-		margin: ____ ____ ____;
-		display: ____;
+		margin: 0 0 1em;
+		display: grid;
 		grid-template-columns: auto auto;
 		grid-template-rows: auto auto;
 }	
 
 p {
-	margin: ____ ____ ____;
+	margin: 0 0 1em;
 	}
 	
 p.description {
-	grid-column: ____;
-	margin: ____;
+	grid-column: 1/3;
+	margin: 0;
 	}
 	
 p.price {
-	grid-row: ____;
-	grid-column: ____;
-	color: ____;
-	text-align: ____;
-	margin: ____;
+	grid-row: 1;
+	grid-column: 2;
+	color: red;
+	text-align: right;
+	margin: 0;
 	}
 	
 nav ul li {
-	text-transform: ____;
-	font-weight: ____;
-	margin-bottom: ____;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 0.5em;
 	}
 	
 nav ul li a {
-	color: ____;
-	background-color: ____;
-	padding: ____ ____ ____;
+	color: yellow;
+	background-color: blue;
+	padding: 0.25em  0.5em;
 	}
 	
 
 p.slogan {
-	font-size: ____;
-	font-family: ____;
-	font-style: ____;
-	margin: ____ ____ ____;
-	color: ____;	
+	font-size: 2.5em;
+	font-family: Georgia, serif;
+	font-style: italic;
+	margin: 2em 0 4em;
+	color: white;	
 	}
 	
 footer {
@@ -124,12 +124,12 @@ footer {
   width: 100%;
   height: 3rem; 
   box-sizing: border-box;
-  padding: ____ ____;
-  background: ____;
+  padding: 0.5em 1em;
+  background: yellow;
 }
 
 address {
-	color: ____;
+	color: orange;
 	}
 
 footer p {
